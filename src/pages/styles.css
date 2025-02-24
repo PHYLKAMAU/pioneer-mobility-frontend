@@ -1,0 +1,309 @@
+/* ==============================
+   Global Styles
+   ============================== */
+   body {
+    font-family: "Arial", sans-serif;
+    background-color: #f8f9fa; /* Light Gray Background */
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Headings */
+  h1, h2, h3 {
+    color: #367588; /* Teal */
+    font-weight: bold;
+  }
+  
+  h4, h5, h6 {
+    color: black;
+    font-weight: bold;
+  }
+  
+  /* Links */
+  a {
+    color: #367588;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #2d5f70; /* Darker Teal */
+    text-decoration: underline;
+  }
+  
+  /* ==============================
+     Navbar Styling
+     ============================== */
+  .navbar {
+    background-color: white !important; /* White Navbar */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+  }
+  
+  .company-name {
+    font-size: 1.8rem;
+    color: #367588;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black !important;
+    margin: 0 10px;
+    text-transform: uppercase;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #367588 !important;
+  }
+  
+  /* ==============================
+     CTA Section
+     ============================== */
+  .cta-section {
+    background-color: white; /* White Background */
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .book-btn {
+    background-color: #367588 !important; /* Teal */
+    border: none;
+    color: white !important;
+    border-radius: 30px;
+    transition: background 0.3s ease, transform 0.2s ease;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+  }
+  
+  .book-btn:hover {
+    background-color: #2d5f70 !important; /* Darker Teal */
+    transform: scale(1.05);
+  }
+  
+  /* ==============================
+     Footer Styling
+     ============================== */
+  .footer-section {
+    background-color: #367588; /* Teal Background */
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .footer-link {
+    color: white !important;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 8px;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+    color: #ddd !important;
+  }
+  
+  /* Social Media Icons */
+  .social-icon {
+    color: white !important;
+    margin: 0 10px;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .social-icon:hover {
+    color: #ddd !important;
+    transform: scale(1.1);
+  }
+  
+  /* ==============================
+     Form Styling
+     ============================== */
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid #367588;
+  }
+  
+  .form-control:focus {
+    border-color: #2d5f70;
+    box-shadow: 0 0 5px rgba(54, 117, 136, 0.5);
+  }
+  
+  /* ==============================
+     Scheduling Page Styles
+     ============================== */
+  .scheduling-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .subtitle {
+    color: black;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  .scheduling-form {
+    text-align: left;
+    padding: 15px;
+  }
+  
+  .scheduling-form label {
+    display: block;
+    font-weight: bold;
+    color: #367588;
+    margin-bottom: 5px;
+  }
+  
+  .scheduling-form input,
+  .scheduling-form select,
+  .scheduling-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #367588;
+    border-radius: 4px;
+  }
+  
+  /* Proper Checkbox Alignment */
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .checkbox-group input {
+    transform: scale(1.2);
+    margin-right: 8px;
+  }
+  
+  /* Privacy Policy Link */
+  .privacy-link {
+    color: #367588;
+    text-decoration: underline;
+  }
+  
+  .privacy-link:hover {
+    color: #2d5f70;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    background-color: #367588;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  
+  .submit-btn:hover {
+    background-color: #2d5f70;
+  }
+  
+  /* ==============================
+     Authentication (Login & Signup)
+     ============================== */
+  .auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .auth-form {
+    width: 400px;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .auth-form h1 {
+    color: #367588;
+    margin-bottom: 20px;
+  }
+  
+  .auth-form label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    color: #367588;
+    margin-top: 10px;
+  }
+  
+  .auth-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #367588;
+    border-radius: 4px;
+  }
+  
+  /* Careers Page */
+  .careers-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .no-vacancies {
+    color: red;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Terms & Privacy Policy */
+  .terms-container, .privacy-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  /* Insurance & Payment */
+  .insurance-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .insurance-section {
+    margin-bottom: 20px;
+  }
+  
+  /* ==============================
+     Responsive Design
+     ============================== */
+  @media (max-width: 768px) {
+    .company-name {
+      font-size: 1.5rem;
+    }
+  
+    .navbar-nav .nav-link {
+      font-size: 0.9rem;
+    }
+  
+    .book-btn {
+      font-size: 1rem;
+      padding: 8px 20px;
+    }
+  
+    .checkbox-group {
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+  }
