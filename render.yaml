@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: pioneer-frontend
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    region: oregon
+    branch: main
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production

@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pioneer-frontend
+    ports:
+      - "3003:80"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    # Uncomment if you need to pass environment variables
+    # env_file:
+    #   - .env.production
