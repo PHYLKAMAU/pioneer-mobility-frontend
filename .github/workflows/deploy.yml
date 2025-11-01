@@ -31,6 +31,8 @@ jobs:
       run: npm test -- --passWithNoTests --watchAll=false
 
     - name: Build application
+      env:
+        CI: false
       run: npm run build
 
   docker-build-push:
